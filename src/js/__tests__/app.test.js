@@ -1,4 +1,5 @@
-import GameSavingLoader, { GameSaving } from '../loader';
+import GameSavingLoader from '../loader';
+import GameSaving from '../save';
 
 // eslint-disable-next-line arrow-body-style
 it('test', () => {
