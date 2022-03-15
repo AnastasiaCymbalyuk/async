@@ -1,7 +1,7 @@
 export default class GameSaving {
-  constructor(id, created, userInfo) {
-    this.id = id;
-    this.created = created;
-    this.userInfo = userInfo;
+  constructor(obj) {
+    this.id = obj.id;
+    this.created = obj.created;
+    this.userInfo = obj.userInfo;
   }
 }
